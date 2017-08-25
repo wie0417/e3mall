@@ -1,0 +1,36 @@
+2017-08-23 22:59:10,258 0      [ost-startStop-1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2017-08-23 22:59:10,329 71     [ost-startStop-1] INFO  pport.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Wed Aug 23 22:59:10 CST 2017]; root of context hierarchy
+2017-08-23 22:59:10,367 109    [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [F:\YLFWork\e3-manager\e3-manager-web\target\classes\Spring\applicationContext-dao.xml]
+2017-08-23 22:59:10,457 199    [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [F:\YLFWork\e3-manager\e3-manager-web\target\classes\Spring\applicationContext-service.xml]
+2017-08-23 22:59:10,530 272    [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [F:\YLFWork\e3-manager\e3-manager-web\target\classes\Spring\applicationContext-trans.xml]
+2017-08-23 22:59:10,681 423    [ost-startStop-1] INFO  tySourcesPlaceholderConfigurer  - Loading properties file from class path resource [conf/db.properties]
+2017-08-23 22:59:10,688 430    [ost-startStop-1] INFO  redAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-08-23 22:59:11,574 1316   [ost-startStop-1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 1315 ms
+2017-08-23 22:59:11,597 1339   [ost-startStop-1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'e3-manager': initialization started
+2017-08-23 22:59:11,599 1341   [ost-startStop-1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'e3-manager-servlet': startup date [Wed Aug 23 22:59:11 CST 2017]; parent: Root WebApplicationContext
+2017-08-23 22:59:11,599 1341   [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [Spring/Springmvc.xml]
+2017-08-23 22:59:11,699 1441   [ost-startStop-1] INFO  redAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-08-23 22:59:11,804 1546   [ost-startStop-1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/item/{itemId}]}" onto public com.mall.pojo.TbItem com.emall.controller.ItemController.getItemById(long)
+2017-08-23 22:59:12,164 1906   [ost-startStop-1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Wed Aug 23 22:59:11 CST 2017]; parent: Root WebApplicationContext
+2017-08-23 22:59:12,205 1947   [ost-startStop-1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Wed Aug 23 22:59:11 CST 2017]; parent: Root WebApplicationContext
+2017-08-23 22:59:12,289 2031   [ost-startStop-1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'e3-manager': initialization completed in 692 ms
+2017-08-23 22:59:27,934 17676  [bio-8080-exec-1] WARN  ework.web.servlet.PageNotFound  - No mapping found for HTTP request with URI [/ssm-crm/customer/list.action] in DispatcherServlet with name 'e3-manager'
+2017-08-23 22:59:30,377 20119  [bio-8080-exec-2] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2017-08-25 10:17:23,901 0      [ost-startStop-1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2017-08-25 10:17:23,971 70     [ost-startStop-1] INFO  pport.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Fri Aug 25 10:17:23 CST 2017]; root of context hierarchy
+2017-08-25 10:17:24,012 111    [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [F:\YLFWork\e3-manager\e3-manager-web\target\classes\Spring\applicationContext-dao.xml]
+2017-08-25 10:17:24,181 280    [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [F:\YLFWork\e3-manager\e3-manager-web\target\classes\Spring\applicationContext-service.xml]
+2017-08-25 10:17:24,247 346    [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [F:\YLFWork\e3-manager\e3-manager-web\target\classes\Spring\applicationContext-trans.xml]
+2017-08-25 10:17:24,504 603    [ost-startStop-1] INFO  tySourcesPlaceholderConfigurer  - Loading properties file from class path resource [conf/db.properties]
+2017-08-25 10:17:24,510 609    [ost-startStop-1] INFO  redAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-08-25 10:17:25,382 1481   [ost-startStop-1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 1480 ms
+2017-08-25 10:17:25,410 1509   [ost-startStop-1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'e3-manager': initialization started
+2017-08-25 10:17:25,412 1511   [ost-startStop-1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'e3-manager-servlet': startup date [Fri Aug 25 10:17:25 CST 2017]; parent: Root WebApplicationContext
+2017-08-25 10:17:25,413 1512   [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [Spring/Springmvc.xml]
+2017-08-25 10:17:25,613 1712   [ost-startStop-1] INFO  redAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-08-25 10:17:25,719 1818   [ost-startStop-1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/item/{itemId}]}" onto public com.mall.pojo.TbItem com.emall.controller.ItemController.getItemById(long)
+2017-08-25 10:17:26,028 2127   [ost-startStop-1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Fri Aug 25 10:17:25 CST 2017]; parent: Root WebApplicationContext
+2017-08-25 10:17:26,070 2169   [ost-startStop-1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Fri Aug 25 10:17:25 CST 2017]; parent: Root WebApplicationContext
+2017-08-25 10:17:26,155 2254   [ost-startStop-1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'e3-manager': initialization completed in 745 ms
+2017-08-25 10:17:48,163 24262  [bio-8080-exec-1] INFO  aba.druid.pool.DruidDataSource  - {dataSource-1} inited
+2017-08-25 10:17:48,546 24645  [bio-8080-exec-2] WARN  ework.web.servlet.PageNotFound  - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'e3-manager'

@@ -1,0 +1,16 @@
+2017-08-23 22:57:58,373 0      [ost-startStop-1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2017-08-23 22:57:58,458 85     [ost-startStop-1] INFO  pport.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Wed Aug 23 22:57:58 CST 2017]; root of context hierarchy
+2017-08-23 22:57:58,500 127    [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [F:\YLFWork\e3-manager\e3-manager-web\target\classes\Spring\applicationContext-dao.xml]
+2017-08-23 22:57:58,604 231    [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [F:\YLFWork\e3-manager\e3-manager-web\target\classes\Spring\applicationContext-service.xml]
+2017-08-23 22:57:58,684 311    [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [F:\YLFWork\e3-manager\e3-manager-web\target\classes\Spring\applicationContext-trans.xml]
+2017-08-23 22:57:58,968 595    [ost-startStop-1] INFO  tySourcesPlaceholderConfigurer  - Loading properties file from class path resource [conf/db.properties]
+2017-08-23 22:57:58,976 603    [ost-startStop-1] INFO  redAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-08-23 22:57:59,854 1481   [ost-startStop-1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 1480 ms
+2017-08-23 22:57:59,881 1508   [ost-startStop-1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'e3-manager': initialization started
+2017-08-23 22:57:59,883 1510   [ost-startStop-1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'e3-manager-servlet': startup date [Wed Aug 23 22:57:59 CST 2017]; parent: Root WebApplicationContext
+2017-08-23 22:57:59,884 1511   [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [Spring/Springmvc.xml]
+2017-08-23 22:58:00,105 1732   [ost-startStop-1] INFO  redAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-08-23 22:58:00,221 1848   [ost-startStop-1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/item/{itemId}]}" onto public com.mall.pojo.TbItem com.emall.controller.ItemController.getItemById(long)
+2017-08-23 22:58:00,510 2137   [ost-startStop-1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Wed Aug 23 22:57:59 CST 2017]; parent: Root WebApplicationContext
+2017-08-23 22:58:00,558 2185   [ost-startStop-1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'e3-manager-servlet': startup date [Wed Aug 23 22:57:59 CST 2017]; parent: Root WebApplicationContext
+2017-08-23 22:58:00,650 2277   [ost-startStop-1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'e3-manager': initialization completed in 769 ms
